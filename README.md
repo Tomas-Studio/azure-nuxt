@@ -1,6 +1,6 @@
 # Deploying Nuxt 3 on Azure Static Web App
 
-Look at the [Nuxt 3 deployment](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Nuxt 3 deployment](https://nitro.unjs.io/deploy/providers/azure) to learn more.
 
 ## Setup
 
