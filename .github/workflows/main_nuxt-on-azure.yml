@@ -11,9 +11,9 @@ on:
     branches:
       - main
 
-env: 
-  BE: https://api.publicapis.org/entries
-  
+# env: 
+#   BE: https://api.publicapis.org/entries
+
 jobs:
   deploy:
     runs-on: ${{ matrix.os }}
