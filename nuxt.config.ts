@@ -6,11 +6,11 @@ export default defineNuxtConfig({
     preset: "azure-functions"
   },
 
-  runtimeConfig: {
-    public: {
-      beUrl: process.env.BE
-    }
-  },
+  // runtimeConfig: {
+  //   public: {
+  //     beUrl: process.env.BE
+  //   }
+  // },
 
   modules: ["@unocss/nuxt"]
 })

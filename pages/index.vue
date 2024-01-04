@@ -14,7 +14,7 @@
 <script setup lang="ts">
 const { data } = useFetch('/api/users')
 
-const config = useRuntimeConfig()
+// const config = useRuntimeConfig()
 
-const { data: axo } = useFetch(`${config.public.beUrl}`)
+const { data: axo } = useFetch(`BE: https://api.publicapis.org/entries`)
 </script>
